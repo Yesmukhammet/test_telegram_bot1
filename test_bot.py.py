@@ -6,7 +6,7 @@ name = ''
 surname = ''
 age = 0
 
-bot = telebot.TeleBot("1334826543:AAEU9he8NoHHpykMfmjgPipIPOUwcKwM_DI")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
